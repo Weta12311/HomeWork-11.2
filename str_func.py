@@ -1,5 +1,10 @@
 def upper_func():
-    """функция выводит текст заглавными буквами"""
+    """делает все буквы заглавными"""
     user_str = input('Введите строку\n')
     print(user_str.upper())
-upper_func()
+
+def title_func():
+    """делает первые буквы заглавными"""
+    user_str = input('Введите строку\n')
+    print(user_str.title())
+
